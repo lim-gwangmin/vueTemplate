@@ -1,0 +1,1 @@
+import{P as a}from"./@ionic-9d55a180.js";const n=async()=>{const s=await a.create({duration:{valueOf:1e3},mode:"ios"});return await s.present(),s},c="/assets/reload-d886ab63.svg",e="/assets/QR_icon-9809f65a.svg",t="/assets/beacon_icon-9b50b57e.svg",r="/assets/OTP_icon-6ac3ccd1.svg";export{r as O,e as Q,t as b,n as p,c as r};

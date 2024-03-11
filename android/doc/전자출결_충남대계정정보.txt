@@ -1,0 +1,191 @@
+
+박인석	parkis@cnu.ac.kr 	010-2509-4948
+장용진	yongjin@cnu.ac.kr
+
+-. zoom
+	계정 : yongjin@cnu.ac.kr / Dydwls2766(용진2766)
+	Url : https://cnu-ac-kr.zoom.us/j/3076890263
+
+-. 계정정보
+	학생 : 202003822 / 202003822 / 980820 / 박슬기
+	교수 : 200310067 / 19711225 / 이영석
+	교수 : 198511761
+	학생 : 202000814
+	교직원 : 201520034/qks0828 (banhanna / qks0828)
+
+	구본우 201915773 / 19800923
+	서영식 201010067 / 19711121
+	엄정헌 201915239 / 19670227
+	김정숙 201210018 / 19741110
+
+	201500536 / 201500536
+
+
+-1. 심사 테스트
+	- student / student -> 202003822, 9/4
+	- professor / professor -> 201010067, 9/4
+
+
+0. IP 설정
+	IP 주소 : 10.188.4.210 ~ 212
+	서브넷 마스크 : 255.255.255.0
+	라우터 : 10.188.4.1
+	DNS : 168.188.253.1
+
+1. 개발DB 정보
+	데이터베이스 :  티베로6
+	개발DB IP  :  cnuitdev.cnu.ac.kr, cnuitdevi.cnu.ac.kr
+	port      :  8629
+	SID       : CNUITDEV       <<<<<< 대문자
+	계정/비밀번호 :  mobilmngt / dbadmin
+
+1-1. 운영DB 정보
+	데이터베이스 :  티베로6
+	개발DB IP  :  cnuitdr.cnu.ac.kr, cnuitdri.cnu.ac.kr
+	port      :  8629
+
+	계정/비밀번호 :  mobilmngt / dbadmin
+
+
+2. 충남대학교 지능형 통합정보시스템
+	URL : https://cnuit.cnu.ac.kr/
+	ID : onmakers
+	PW : abc123!@#
+
+3. 하이웨어
+	- https://acms.cnu.ac.kr:8443
+	- onmakers2 / 온메이커스12##$
+	- 클라우드콘솔계정 : user / cnu^)^@6062
+	- 하이퍼클라우드계정 : cnumattadmin, cnumobileadmin / Master123!
+
+4. WEB/WAS IP
+	- SSH
+		- PORT : 2222
+		- tmax / tmax, root / root
+
+	- 서버 IP
+		- WEB : 10.110.30.74
+		- WAS : 10.110.20.74
+
+	- NAT IP
+		- WEB : 168.188.6.180
+		- WAS : 168.188.6.110
+
+	- 도메인
+		- matt.cnu.ac.kr
+
+	- 앱경로
+		/home/tmax/app/cnumatt
+
+
+5. 스토어 계정
+	1) Android
+		- url : https://play.google.com/apps/publish/
+		- id : 4cnucnu@gmail.com (이한수)
+		- pw : wjdqhxhdtlsdnjs ( 정보통신원 )
+
+	2) IOS
+		- url : https://appstoreconnect.apple.com/apps
+		- id : mobilemaster@cnu.ac.kr
+		- pw : Kingqueen89
+
+
+6. App Deploy
+	1) App id
+		- ios : 		kr.ac.cnu.mobile.att 	Mobile New CNU Att 	충남대학교 전자출결
+		- android : 	kr.ac.cnu.mobile.att 	(4cnucnu@gmail.com)		충남대학교 전자출결
+
+
+
+0-1. IOS 설정
+	# info.plist
+
+	<!-- Geolocation -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>You are about to use location!</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This will be called if location is used behind the scenes</string>
+
+	<!-- Barcode(Carmera) -->
+	<key>NSCameraUsageDescription</key>
+	<string>App would like to access your camera. Your photos wont be shared without your permission.</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App would like to access your photo library. Your photos wont be shared without your permission.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App would like to access your photo library. Your photos wont be shared without your permission.</string>
+
+	<!-- Light UI -->
+	<key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+
+	# Access WIFI Infomation
+		- App ID Configuration Capabilities : Access WiFi Information
+		- Xcode Signing & Capabilities : Access WiFi Information
+
+	<!-- Custom Url Scheme -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>kr.ac.cnu.mobile.att</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>cnuatt</string>
+			</array>
+		</dict>
+	</array>
+
+0-1. Android 설정
+	# AndroidManifest.xml
+
+    <!-- Geolocation API -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <!-- Qr API -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+
+1. ios deploy
+	- emulate
+		- emulator list
+			$ ionic cordova emulate ios --list
+			$ ionic cordova emulate ios --target="iPhone-X, 12.1"
+		- emulator run
+			$ ionic cordova emulate ios -- --buildFlag="-UseModernBuildSystem=0" --target="iPhone-X"
+
+
+2. android deploy
+	1) android 배포용 인증서
+		> 업로드 인증서 생성 (최초 1회)
+			- keytool -genkey -v -keystore cnu_mobile-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias cnu_mobile-alias
+
+		> apk 인증서 서명
+			- jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore cnu_mobile-release-key.jks app-release-unsigned.apk cnu_mobile-alias
+
+		> apk 파일 최적화
+			- /Users/yhjo/Library/Android/sdk/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk cnu_mobile.apk
+			- /Users/yhjo/Library/Android/sdk/build-tools/26.0.2/zipalign -v 4 app-release-unsigned.apk cnu_mobile_course.apk
+
+		> apk 서명 확인
+			- /Users/yhjo/Library/Android/sdk/build-tools/26.0.2/apksigner verify cnu_mobile.apk
+			- /Users/yhjo/Library/Android/sdk/build-tools/26.0.2/apksigner verify cnu_mobile_course.apk
+
+		> 업로드 인증서 갱신
+			- keytool -export -rfc -alias cnu_mobile-alias -file cnu_mobile-upload_certificate.pem -keystore cnu_mobile-release-key.jks
+
+		- 인증서 정보
+			cnuuniv01
+			in suk park
+			cnu
+			cnu
+			yuseonggu
+			daejeon
+			kr

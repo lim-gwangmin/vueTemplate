@@ -1,0 +1,75 @@
+PODS:
+  - Capacitor (5.6.0):
+    - CapacitorCordova
+  - CapacitorApp (5.0.6):
+    - Capacitor
+  - CapacitorCordova (5.6.0)
+  - CapacitorDevice (5.0.7):
+    - Capacitor
+  - CapacitorGeolocation (5.0.6):
+    - Capacitor
+  - CapacitorKeyboard (5.0.7):
+    - Capacitor
+  - CapacitorPreferences (5.0.6):
+    - Capacitor
+  - CapacitorSplashScreen (5.0.6):
+    - Capacitor
+  - CapacitorToast (5.0.6):
+    - Capacitor
+  - CordovaPlugins (5.6.0):
+    - CapacitorCordova
+  - CordovaPluginsResources (0.0.105)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorPreferences (from `../../node_modules/@capacitor/preferences`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - "CapacitorToast (from `../../node_modules/@capacitor/toast`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - CordovaPluginsResources (from `../capacitor-cordova-ios-plugins`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorGeolocation:
+    :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorPreferences:
+    :path: "../../node_modules/@capacitor/preferences"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  CapacitorToast:
+    :path: "../../node_modules/@capacitor/toast"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  CordovaPluginsResources:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: ebfc16cdb8116d04c101686b080342872da42d43
+  CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
+  CapacitorCordova: 931b48fcdbc9bc985fc2f16cec9f77c794a27729
+  CapacitorDevice: fc91bdb484dc0e70755e9b621cd557afe642613a
+  CapacitorGeolocation: 7be5f77abc205c0efe319fff8587a7183e7b0240
+  CapacitorKeyboard: ce5e01064cf57a2c05b32565310713b7fe6cc6f9
+  CapacitorPreferences: f03954bcb0ff09c792909e46bff88e3183c16b10
+  CapacitorSplashScreen: 5fa2ab5e46cf5cc530cf16a51c80c7a986579ccd
+  CapacitorToast: bb0d79b78d9c27c0199b57f735dd50b8fc363489
+  CordovaPlugins: 9205cd9e4d1da5a2491486194bd41a7432aed6f9
+  CordovaPluginsResources: 0c211f770ed91763a179ebcd9b9346e120b70662
+
+PODFILE CHECKSUM: b2f1dac33a579ccc1342a374ae2818e673737dde
+
+COCOAPODS: 1.14.3

@@ -1,0 +1,1 @@
+const o=e=>{const g=[];for(let t=0;t<7;t++){let r=new Date(e.getFullYear(),e.getMonth(),e.getDate()+(t-e.getDay())),d=r.getFullYear(),y=r.getMonth()+1,a=r.getDate();y=y.toString().padStart(2,"0"),a=a.toString().padStart(2,"0");let l=["일","월","화","수","목","금","토"][r.getDay()];g[t]={y:d,M:y,d:a,dayS:l,dayN:t}}return g};export{o as g};

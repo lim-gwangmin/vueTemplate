@@ -1,0 +1,1 @@
+System.register([],(function(s,e){"use strict";return{execute:function(){s("c","/assets/chalkboard-63d2ec1a.svg"),s("b","/assets/book-d2efe4d7.svg"),s("a","/assets/alarm-a73fb8b5.svg"),s("s","/assets/school-381590e7.svg")}}}));

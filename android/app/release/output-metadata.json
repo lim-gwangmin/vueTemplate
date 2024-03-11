@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "kr.ac.cnu.mobile.att",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 26,
+      "versionName": "1.1.12",
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">충남대학교전자출결</string>
+    <string name="title_activity_main">충남대학교전자출결</string>
+    <string name="package_name">kr.ac.cnu.mobile.att</string>
+    <string name="custom_url_scheme">kr.ac.cnu.mobile.att</string>
+</resources>

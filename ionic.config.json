@@ -1,0 +1,7 @@
+{
+  "name": "CNU_MOBILE_ATT",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

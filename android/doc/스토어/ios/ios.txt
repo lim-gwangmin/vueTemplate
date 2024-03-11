@@ -1,0 +1,61 @@
+* 플랫폼
+iOS
+
+* 이름 
+충남대학교 전자출결
+
+* 기본 언어
+한국어
+
+* 번들 ID
+kr.ac.cnu.mobile.att
+
+* SKU
+kr.ac.cnu.mobile.att
+
+* 사용자 액세스 권한
+전체 액세스
+
+* 프로모션 텍스트
+없음
+
+* 설명
+충남대학교의 전자출결 모바일 서비스로 학생 수강 과목에 대한 전자출결 기능을 사용할 수 있습니다.
+
+[주요 기능]
+  ● 학생 
+    - 학생의 학기 별 수강 시간표 조회 및 출결 현황을 조회할 수 있습니다.
+    - 오늘 날짜의 수강 과목 목록을 조회할 수 있습니다.
+    - 과목을 선택하여 현재 수업에 대한 전자출결 기능을 사용할 수 있습니다.
+  ● 교수
+    - 교수의 학기 별 수강 시간표 조회 및 출결 현황을 조회할 수 있습니다.
+    - 오늘 날짜의 수강 과목 목록을 조회할 수 있습니다.
+    - 과목을 선택하여 현재 수업에 수강중인 학생의 목록을 조회할 수 있습니다.
+    - 학생의 출결정보 조회 및 출결정보을 수정할 수 있습니다.
+
+* 키워드
+충남대, 충남대학교, cnu, 전자출결, 충남대 전자출결, 충남대학교 전자출결, 대학, 대학교
+
+* 지원 URL
+https://plus.cnu.ac.kr
+
+* 저작권
+충남대학교
+
+* 메모
+Dear Apple Inc,
+This app is an electronic attendance app for Chungnam National University. 
+This app is used by students and professors.
+Please check with the account below.
+
+account
+1. student
+ID : student
+PW: student1234
+
+2. Professor
+ID : professor
+PW: professor1234
+
+* 개인정보 처리방침 URL
+https://plus.cnu.ac.kr/html/kr/guide/guide_080501.html

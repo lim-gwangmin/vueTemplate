@@ -1,0 +1,5 @@
+<svg id="back2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+  <rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)"/>
+  <path d="M16.572,6,9,13.572l7.572,7.572" transform="translate(-0.786 -1.572)" fill="none"
+  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+    "appId": "kr.ac.cnu.mobile.att",
+    "appName": "충남대학교전자출결",
+    "webDir": "dist",
+    "server": {
+        "androidScheme": "https"
+    },
+    "plugins": {
+        "SplashScreen": {
+            "launchAutoHide": false
+        },
+        "Keyboard": {
+            "resize": "body",
+            "resizeOnFullScreen": true
+        }
+    }
+}
